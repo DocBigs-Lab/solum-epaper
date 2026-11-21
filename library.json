@@ -1,0 +1,28 @@
+{
+  "name": "SolumEpaper",
+  "version": "0.1.0",
+  "description": "Driver for the 2.0\" black/white/yellow/red e-paper panel from SOLUM shelf labels (EL020L8C4C, FPC-8161, 200x152, 2 bit per pixel), based on Adafruit GFX",
+  "keywords": "epaper, e-paper, eink, solum, shelf-label, esl, bwry, 4-color, el020l8c4c, fpc-8161, 2.0, adafruit-gfx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DocBigs-Lab/solum-epaper.git"
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": [
+    "Epd20.h"
+  ],
+  "dependencies": {
+    "adafruit/Adafruit GFX Library": "^1.11.11",
+    "adafruit/Adafruit BusIO": "^1.16.1"
+  },
+  "export": {
+    "exclude": [
+      "extras",
+      ".pio",
+      "examples/*/.pio",
+      ".vscode"
+    ]
+  }
+}

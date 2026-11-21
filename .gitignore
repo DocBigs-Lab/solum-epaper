@@ -1,0 +1,10 @@
+.pio/
+.vscode/
+.DS_Store
+compile_commands.json
+*.bin
+# von pioarduino beim Bauen erzeugt
+idf_component.yml
+idf_component.yml.orig
+dependencies.lock
+!extras/diagnose/bin/*.bin
